@@ -1,0 +1,134 @@
+body {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+
+  /*Header*/
+  header {
+    background-color: none;
+    padding: 35px;
+  }
+  header ul {
+    display: flex;
+    align-content: center;
+    float: right;
+    color: white;
+  }
+  header li {
+    display: inline-block;
+    padding: 0px 5px;
+    font-size: 20px;
+    font-family: 'Montserrat';
+  }
+  header li a {
+    color: #2a3d45;
+    text-decoration: none;
+  }
+
+  header li a:active {
+    color: #c17c74;
+    text-decoration:solid;
+  }
+
+  header li a:hover {
+    color: #c17c74;
+  }
+
+  header p {
+    display: inline-block;
+  }
+  
+  /*Body*/
+  .Container {
+    /*margin-right: 90px;
+    display: flex;
+    align-items: center;
+    grid-template-areas: 'imgCol, txtCol';
+    grid-template-columns: 30% 70%;*/
+    /*margin-left: 30px;*/
+    /*display: block;*/
+
+    font-size: 20px;
+    text-align: justify;
+    width: 1000px;
+    margin: 0 auto;
+       
+  }
+  .photoCindy {
+    float: left;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: -30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .AboutMe {
+    float: right;  
+    margin-bottom: 100px;
+    padding: 20px;
+    width: 500px;
+  }
+
+  .AboutMe h1 { 
+    color: #7a6c5d;
+    font-family: 'Montserrat';
+  }
+    
+  .AboutMe p {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 100;
+    text-align: justify;
+    display: inline;
+  }
+
+  .AboutMe a {
+    color: #2A3D45;
+    font-family: 'Montserrat';
+  }
+
+  .AboutMe h4 {
+    color: #7a6c5d;
+    font-family: 'Montserrat';
+  }
+  .AboutMe a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    color: #7a6c5d;
+  }
+  .AboutMe a:hover {
+    color: #2a3d45;
+  }
+
+  
+  @media only screen and (max-width: 600px) {
+
+    .photoCindy {
+     justify-content: center;
+      width: 50%;  
+    }
+
+    .AboutMe {
+      width: 100%;
+      justify-content:right;   
+      position: static; 
+    }
+    .Menu {
+      justify-content: center;
+    }
+    header li {
+    display: inline-block;
+    color: #2A3D45;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    }
+    header p {
+    display: inline-block;
+    }
+  
+    .Container {
+    font-size: 16px;
+    display: block;
+    text-align: justify;
+    }
+  }  

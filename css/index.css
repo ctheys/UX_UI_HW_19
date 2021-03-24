@@ -1,0 +1,181 @@
+body {
+  margin-left: 90px;
+  margin-right: 90px;
+}
+header {
+  background-color: none;
+  padding: 35px;
+}
+header ul {
+  display: flex;
+  align-content: center;
+  float: right;
+  color: white;
+}
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+  font-size: 20px;
+  font-family: 'Montserrat';
+}
+header li a {
+  color: #2a3d45;
+  text-decoration: none;
+}
+
+header li a:active {
+  color: #c17c74;
+  text-decoration:solid;
+}
+
+header li a:hover {
+  color: #c17c74;
+}
+header p {
+  display: inline-block;
+}
+
+/*Hero*/
+.hero {
+  font-size: 60px;
+  text-align: justify;
+  width: 1000px;
+  height: 700px;
+  margin: 0 auto;
+  font-family: 'Montserrat';
+}
+
+.hero p {
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.scroll {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  }
+
+
+.selectionWork {
+  padding: 30px;
+  text-align: center;
+}
+
+.selectionWork p {
+  font-size: 60px;
+  font-family: 'Montserrat';
+  text-align: center;
+  color: #c17c74;
+}
+
+.bounce {
+  animation: bounceArrow .7s infinite;
+}
+
+.content-case-study {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 50px;
+    grid-template-areas:
+        "case1 case1 case1 . case2 case2 case2"
+        ". . case3 case3 case3 . .";
+}
+
+.content {
+  margin: 0 80px;
+  margin-bottom: 200px;
+  min-height: 500px;
+}
+
+#case1 {
+  grid-area: case1;
+  grid-row-start: case1;
+  grid-column-start: case1;
+  grid-row-end: case1;
+  grid-column-end: case1;
+}
+
+#case2 {
+  grid-area: case2;
+  grid-row-start: case2;
+  grid-column-start: case2;
+  grid-row-end: case2;
+  grid-column-end: case2;
+}
+
+#case3 {
+  grid-area: case3;
+  grid-row-start: case3;
+  grid-column-start: case3;
+  grid-row-end: case3;
+  grid-column-end: case3;
+}
+
+.content-case-study .case-study {
+  text-align: center;
+}
+
+.content-case-study .case-study-img {
+    width: 100%;
+    max-height: 100%;
+    transition: ease 0.5s;
+    cursor: pointer;
+}
+
+.content-case-study h3 {
+    color: black;
+    font-family: 'Montserrat';
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.content-case-study p {
+    margin-top: 5px;
+    color: black;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.Projects {
+  margin: 30px 30%;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 35%;
+  grid-template-areas: "Reelii NavyForce; APWF";
+}
+  
+footer {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+footer p { 
+  padding-left: 70px;
+  color: #2a3d45;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  margin: 0;
+}
+
+@keyframes bounceArrow {
+  from {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: 5px;
+  }
+  to {
+    margin-top: 0px;
+  }
+}
+   
