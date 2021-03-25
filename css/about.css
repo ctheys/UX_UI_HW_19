@@ -40,14 +40,6 @@ body {
   
   /*Body*/
   .Container {
-    /*margin-right: 90px;
-    display: flex;
-    align-items: center;
-    grid-template-areas: 'imgCol, txtCol';
-    grid-template-columns: 30% 70%;*/
-    /*margin-left: 30px;*/
-    /*display: block;*/
-
     font-size: 20px;
     text-align: justify;
     width: 1000px;
