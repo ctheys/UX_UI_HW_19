@@ -1,9 +1,10 @@
-console.log ("Hello world!");
 
-$(".Container a").on("hover", function() {
-      $(this).append( $("<span> x Download Resume <span>") );
-    }, function() {
-      $( this ).find( "span" ).last().remove();
+  $(".moon").on("click", function(){
+    if ($(this).hasClass("moon")) {
+      $(".theme").attr("href", "css/blank.css")
     }
-  );
-   
+    
+    else if ($(this).hasClass("dark")){
+      $("#theme").attr("href", "index.css")
+    }
+  });

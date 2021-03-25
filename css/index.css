@@ -31,6 +31,7 @@ header li a:active {
 header li a:hover {
   color: #c17c74;
 }
+
 header p {
   display: inline-block;
 }
@@ -150,6 +151,11 @@ header p {
   justify-content: center;
   grid-template-rows: 35%;
   grid-template-areas: "Reelii NavyForce; APWF";
+}
+
+.moon {
+  width: 50px;
+  cursor: pointer;
 }
   
 footer {

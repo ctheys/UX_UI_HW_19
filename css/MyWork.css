@@ -25,13 +25,16 @@ header li a {
   color: #2a3d45;
   text-decoration: none;
 }
+
 header li a:active {
   color: #c17c74;
   text-decoration:solid;
 }
+
 header li a:hover {
   color: #c17c74;
 }
+
 header p {
   display: inline-block;
 }
